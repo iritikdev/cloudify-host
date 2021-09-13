@@ -1,6 +1,6 @@
 @import "./normalize.css";
 
-:root  {
+:root {
   --color-primary: #2584ff;
   --color-secondary: #00d9ff;
   --color-accent: #ff3400;
@@ -375,10 +375,6 @@ a {
   margin-bottom: 2rem;
 }
 
-.plan--popular {
-  transform: scale(1.1);
-}
-
 .plan--popular .card__header {
   position: relative;
 }
@@ -415,6 +411,10 @@ a {
 
   .plan__description {
     font-size: 1.7rem;
+  }
+
+  .plan--popular {
+    transform: scale(1.1);
   }
 }
 
